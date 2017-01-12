@@ -15,8 +15,9 @@
 			<li>Age: 25</li>
 			<li>Gender: Male</li>
 			<li>Profession: Automotive Sales</li>
-			<li>Technology: Has an Android phone</li>
-			<li>Needs:</li>
+			<li>Technology: Has a Samsung Galaxy 6 Android phone and uses Windows at work and at home</li>
+			<li>Needs: Frank is a young salesman that wants to stay up to date with the newest shoe trends.</li>
+			<li>Goals: Frank uses Satorisan to do some of his online shoe shopping </li>
 		</ul>
 
 	</body>
