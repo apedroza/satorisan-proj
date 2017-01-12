@@ -26,7 +26,19 @@
 
 		<p id="description">Frank has a lot of down time at his job, so he spends a large amount of time on his phone and
 			work laptop to browse and shop on the web. Today is no exception so he decides log into his laptop and begin looking
-			for a new pair of shoes. </p>
+			for a new pair of shoes on satorisan.com.  </p>
+
+			<h3 class="foo-heading">Interaction Flow</h3>
+		<ol>
+			<li>Frank logs into his computer</li>
+			<li>He proceeds to get onto Satorisan.com</li>
+			<li>He places the cursor over "men" then clicks on "casual"</li>
+			<li>After browsing through this page he locates the "Heisei" "Napa Dark Brown" pair and clicks on them</li>
+			<li>Frank continues to click on the "size" drop down arrow and clicks on in size of "43"</li>
+			<li>He then proceeds by clicking "add to cart"</li>
+			<li>He then clicks "confirm order" twice</li>
+			<li>Finally he finishes up by adding his payment information</li>
+		</ol>
 
 
 
