@@ -35,14 +35,14 @@
 			<li>He places the cursor over "men" then clicks on "casual"</li>
 			<li>A list of shoes along with their pictures are displayed</li>
 			<li>After browsing through this page he locates the "Heisei" "Napa Dark Brown" pair and clicks on them</li>
-			<li>Frank continues to click on the "size" drop down arrow and clicks on in size of "43"</li>
+			<li>Frank continues to click on the "size" drop down arrow and clicks on size "43"</li>
 			<li>He then proceeds by clicking "add to cart"</li>
 			<li>He then clicks "confirm order" twice</li>
 			<li>Finally he finishes up by adding his payment information</li>
 		</ol>
 
 			<h2 class="foo-heading">Conceptual Model</h2>
-			<h3 class="foo-heading">Profile</h3>
+		<h3 class="foo-heading"><u>Profile</u></h3>
 		<ul>
 			<li>profileId</li>
 			<li>profileEmail</li>
@@ -51,12 +51,18 @@
 			<li>profileGender</li>
 			<li>profilePayment</li>
 		</ul>
-			<h3 class="foo-heading">Casual Shoes</h3>
+		<h3 class="foo-heading"><u>Casual Shoes</u></h3>
 		<ul>
 			<li>shoeId</li>
 			<li>shoeColor</li>
 			<li>shoeSize</li>
 			<li>shoePrice</li>
+		</ul>
+		<h3 class="foo-heading"><u>Relations</u></h3>
+		<ul>
+			<li>Many profileId can buy many shoeId</li>
+			<li>Many shoeId can be bought by many profileId</li>
+
 		</ul>
 
 
