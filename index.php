@@ -22,6 +22,13 @@
 
 		<img src="images/youngcarsales.jpg" alt="carsales">
 
+			<h2 class="foo-heading">Use and Case</h2>
+
+		<p id="description">Frank has a lot of down time at his job, so he spends a large amount of time on his phone and
+			work laptop to browse and shop on the web. Today is no exception so he decides log into his laptop and begin looking
+			for a new pair of shoes. </p>
+
+
 
 
 
