@@ -8,12 +8,16 @@
 	</head>
 	<body>
 		<header>
-			<h1 class="foo-heading">Persona Satorisan Data Design</h1>
+			<h1 class="foo-heading">Persona for Satorisan Data Design</h1>
 		</header>
-		<main>
-			<p id="description">Name: Frank Deer
-			Age:28
-			</p>
-		</main>
+		<ul>
+			<li>Name: Frank Deer</li>
+			<li>Age: 25</li>
+			<li>Gender: Male</li>
+			<li>Profession: Automotive Sales</li>
+			<li>Technology: Has an Android phone</li>
+			<li>Needs:</li>
+		</ul>
+
 	</body>
 </html>
