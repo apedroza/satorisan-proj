@@ -15,7 +15,7 @@
 			<li>Age: 25</li>
 			<li>Gender: Male</li>
 			<li>Profession: Automotive Sales</li>
-			<li>Technology: Has a Samsung Galaxy 6 Android phone and uses Windows at work and at home</li>
+			<li>Technology: Has a Samsung Galaxy 6 Android phone and uses Windows 10 at work and at home both on a Dell laptop</li>
 			<li>Needs: Frank is a young salesman that wants to stay up to date with the newest shoe trends.</li>
 			<li>Goals: Frank uses Satorisan to do some of his online shoe shopping </li>
 		</ul>
@@ -28,17 +28,36 @@
 			work laptop to browse and shop on the web. Today is no exception so he decides log into his laptop and begin looking
 			for a new pair of shoes on satorisan.com.  </p>
 
-			<h3 class="foo-heading">Interaction Flow</h3>
+			<h2 class="foo-heading">Interaction Flow</h2>
 		<ol>
 			<li>Frank logs into his computer</li>
 			<li>He proceeds to get onto Satorisan.com</li>
 			<li>He places the cursor over "men" then clicks on "casual"</li>
+			<li>A list of shoes along with their pictures are displayed</li>
 			<li>After browsing through this page he locates the "Heisei" "Napa Dark Brown" pair and clicks on them</li>
 			<li>Frank continues to click on the "size" drop down arrow and clicks on in size of "43"</li>
 			<li>He then proceeds by clicking "add to cart"</li>
 			<li>He then clicks "confirm order" twice</li>
 			<li>Finally he finishes up by adding his payment information</li>
 		</ol>
+
+			<h2 class="foo-heading">Conceptual Model</h2>
+			<h3 class="foo-heading">Profile</h3>
+		<ul>
+			<li>profileId</li>
+			<li>profileEmail</li>
+			<li>profileAddress</li>
+			<li>profilePhone</li>
+			<li>profileGender</li>
+			<li>profilePayment</li>
+		</ul>
+			<h3 class="foo-heading">Casual Shoes</h3>
+		<ul>
+			<li>shoeId</li>
+			<li>shoeColor</li>
+			<li>shoeSize</li>
+			<li>shoePrice</li>
+		</ul>
 
 
 
