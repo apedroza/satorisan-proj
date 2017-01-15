@@ -58,16 +58,18 @@
 			<li>shoeSize</li>
 			<li>shoePrice</li>
 		</ul>
+		<h3 class="foo-heading"><u>Cart</u></h3>
+		<ul>
+			<li>shoeId</li>
+			<li>profileId</li>
+			<li>shoppingCart</li>
+			<li>price</li>
+			<li>date</li>
+		</ul>
 		<h3 class="foo-heading"><u>Relations</u></h3>
 		<ul>
 			<li>Many profileId can buy many shoeId</li>
 			<li>Many shoeId can be bought by many profileId</li>
-
 		</ul>
-
-
-
-
-
 	</body>
 </html>
