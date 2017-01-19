@@ -57,14 +57,15 @@
 		<h3 class="foo-heading"><u>Shoe</u></h3>
 		<ul>
 			<li>shoeId</li>
+			<li>shoeProfileId</li>
 			<li>shoeColor</li>
 			<li>shoeSize</li>
 			<li>shoePrice</li>
 		</ul>
 		<h3 class="foo-heading"><u>Cart</u></h3>
 		<ul>
-			<li>cartShoeId (foreign key) </li>
-			<li>cartProfileId (foreign key)</li>
+			<li>cartProfileId (foreign key) </li>
+			<li>cartShoeId (foreign key)</li>
 			<li>totalPrice</li>
 			<li>orderId</li>
 		</ul>
