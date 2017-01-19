@@ -41,17 +41,20 @@
 			<li>Finally he finishes up by adding his payment information</li>
 		</ol>
 
+			<h2 class="foo-heading">ERD</h2>
+
+		<img src="images/satorisan.svg" alt="satorisan">
+
 			<h2 class="foo-heading">Conceptual Model</h2>
-		<h3 class="foo-heading"><u>Profile</u></h3>
+		<h3 class="foo-heading"><u>Customer</u></h3>
 		<ul>
 			<li>profileId</li>
 			<li>profileEmail</li>
 			<li>profileAddress</li>
 			<li>profilePhone</li>
 			<li>profileGender</li>
-			<li>profilePayment</li>
 		</ul>
-		<h3 class="foo-heading"><u>Casual Shoes</u></h3>
+		<h3 class="foo-heading"><u>Shoe</u></h3>
 		<ul>
 			<li>shoeId</li>
 			<li>shoeColor</li>
@@ -60,16 +63,15 @@
 		</ul>
 		<h3 class="foo-heading"><u>Cart</u></h3>
 		<ul>
-			<li>shoeId</li>
-			<li>profileId</li>
-			<li>shoppingCart</li>
-			<li>price</li>
-			<li>date</li>
+			<li>cartShoeId (foreign key) </li>
+			<li>cartProfileId (foreign key)</li>
+			<li>totalPrice</li>
+			<li>orderId</li>
 		</ul>
 		<h3 class="foo-heading"><u>Relations</u></h3>
 		<ul>
-			<li>Many profileId can buy many shoeId</li>
-			<li>Many shoeId can be bought by many profileId</li>
+			<li>One profileId can have one orderId</li>
+			<li>Many shoeId can be on many orderId</li>
 		</ul>
 	</body>
 </html>
